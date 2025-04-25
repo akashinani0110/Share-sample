@@ -1,0 +1,17 @@
+---
+title: "Basic R Markdown Example"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Introduction
+
+This is an example of an R Markdown document. You can include plain text, code, and plots.
+
+## Load Data
+
+```{r}
+# Load built-in dataset
+data(mtcars)
+head(mtcars)
