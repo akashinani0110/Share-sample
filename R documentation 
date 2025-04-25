@@ -1,0 +1,12 @@
+#' Calculate Mean and Standard Deviation
+#'
+#' This function calculates the mean and standard deviation of a numeric vector.
+#'
+#' @param x A numeric vector.
+#' @return A list containing mean and standard deviation.
+#' @examples
+#' stats_summary(c(1, 2, 3, 4))
+#' @export
+stats_summary <- function(x) {
+  list(mean = mean(x), sd = sd(x))
+}
