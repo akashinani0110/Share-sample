@@ -1,0 +1,29 @@
+#' Launch the APC Dashboard Application
+#'
+#' This function launches the APC Dashboard Shiny application, with various options for production, report generation,
+#' and Perforce file handling.
+#'
+#' @param precomputeData Logical. Whether to precompute data before launching. Default is `TRUE`.
+#' @param isProduction Logical. Flag to indicate if the app is running in production mode. Default is `FALSE`.
+#' @param generateAPCReport Logical. Whether to generate the APC report. Default is `FALSE`.
+#' @param APCReportZoomfactor Numeric. Zoom factor for the APC report. Default is `0.615`.
+#' @param checkoutPerforceFiles Logical. Whether to checkout files from Perforce. Default is `FALSE`.
+#' @param changelistDescription Character. Description for Perforce changelist. Default is `"Updated APC Dashboard as of <current date>"`.
+#' @param deployment Character. Deployment environment, either `"server"` or `"local"`.
+#' @param pathToProjectDir Character. Path to the project directory. Default is current working directory (`getwd()`).
+#' @param manualInputDataPaths List or NULL. Optional manually provided data paths. Default is `NULL`.
+#' @param hostedPort Integer. Port to host the Shiny app on. Default is `9999`.
+#' @param buildPCCReportout Logical. Whether to build the PCC Report output. Default is `FALSE`.
+#' @param test Logical. Flag for test mode. Default is `FALSE`.
+#' @param temp Logical. Flag for using temporary data. Default is `FALSE`.
+#' @param loadApp Logical. Whether to load the Shiny app after setup. Default is `TRUE`.
+#' @param PCCReportOutStartDate Date. Start date for the PCC Report output. Default is `as.Date("2021-11-01")`.
+#' @param PCCReportOutEndDate Date. End date for the PCC Report output. Default is `as.Date("2021-12-31")`.
+#' @param PCCReportOutGenDate Date. Generation date for the PCC Report output. Default is `as.Date("2022-01-28")`.
+#' @param browserpath Character or NULL. Path to the browser executable to launch the app. Default is `NULL`.
+#'
+#' @return None. The function launches the Shiny dashboard or performs report generation depending on parameters.
+#' @export
+#'
+#' @examples
+#' LaunchAPCDashboard(isProduction = TRUE, deployment = "local")
