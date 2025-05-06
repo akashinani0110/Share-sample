@@ -1,0 +1,31 @@
+Here’s a more polished version of your steps:
+
+Steps to run the APC Viz (code is aligned with the Perforce version):
+
+1. Clone the repository.
+
+
+2. Switch to the required branch — currently, use xyz.
+
+
+3. At the same directory level where viz_apc is cloned, create a folder named upstream_data.
+
+
+4. Inside upstream_data, create a subfolder named apc.
+
+
+5. Download and extract all APC project artifacts into the upstream_data/apc folder.
+
+
+6. Ensure the viz_apc folder (cloned from Bitbucket) contains the required viz_apc data.
+
+
+
+Would you like a visual diagram to accompany this setup?
+
+Rephrase
+
+We are migrating to production server as there are compliant issues within uat server. Moreover publically accessible links need to be removed only password protected links are allowed.
+
+Uat server gets down randomly with info and is mainly used for testing purposes
+
