@@ -1,0 +1,71 @@
+1. Manage Risk (What)
+
+Employee Summary:
+I took proactive steps to reduce operational and technical risk by improving the reliability of setup processes, ensuring version control hygiene, and minimizing manual error in regular tasks.
+
+Comment:
+
+Migrated dashboard codebase from Perforce to Bitbucket, eliminating version control issues and enabling better code traceability.
+
+Automated screenshot capturing and reporting to ensure consistent output and reduce human error.
+
+Created a shell script to standardize project setup, avoiding configuration-related risks and dependency confusion.
+
+Ensured compliance with internal policies to avoid governance-related risks.
+
+
+
+---
+
+2. Drive Operational Excellence (What)
+
+Employee Summary:
+Focused on improving speed, consistency, and automation of regular tasks to enhance the team's overall delivery capability and reduce manual overhead.
+
+Comment:
+
+Automated the complete dashboard screenshot and reporting workflow, leading to time savings and more consistent reporting.
+
+Developed a shell script to clone repos, fetch data, and set up projects quickly—enabling faster onboarding and environment consistency.
+
+Implemented Excel export feature in the APC dashboard, improving business reporting efficiency.
+
+Refactored the Pyatore dashboard to pull live diagnostics data, improving monitoring quality.
+
+
+
+---
+
+3. Drive Growth (What)
+
+Employee Summary:
+Actively worked on personal and team growth by acquiring new skills, sharing knowledge, and building tools that support scalability and innovation.
+
+Comment:
+
+Completed a Diploma in Data Science with distinction, improving data capabilities and future-readiness.
+
+Created automation tools (Playwright + shell script) that save time and scale with growing team/project needs.
+
+Guided the Gurgaon team on using GitHub Copilot effectively and planned a session for the larger team to boost productivity.
+
+Focused on building features with long-term scalability (e.g., Pyatore integration, exportable dashboards).
+
+
+
+---
+
+4. Great Place to Work (How)
+
+Employee Summary:
+Contributed to a supportive and collaborative environment by being available to help, sharing learnings, and maintaining a consistent, professional approach.
+
+Comment:
+
+Proactively helped the Gurgaon team adopt Copilot, promoting knowledge sharing and confidence in using AI-assisted tools.
+
+Maintained clear communication and was approachable for support and onboarding.
+
+Contributed to smoother workflows for the entire team by automating repetitive tasks, reducing shared frustration.
+
+Adhered to team norms and policies, ensuring smooth collaboration and mutual trust
