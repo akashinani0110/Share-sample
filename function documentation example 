@@ -1,1 +1,102 @@
-test
+Business-as-Usual (BAU) Responsibilities
+
+Throughout the first half of the year, I maintained consistency in delivering on project expectations, supported critical applications, ensured dashboard reliability, and provided timely assistance to internal stakeholders.
+
+
+---
+
+Key Contributions Beyond BAU
+
+1. Migration of Dashboard from Perforce to Bitbucket
+
+What was done: Migrated the legacy dashboard codebase from Perforce to Bitbucket.
+How: Set up a new Git repository structure, implemented branching strategy, and ensured smooth transition for all dependent teams.
+Why: To modernize the code management process and align with enterprise-wide tooling.
+Impact: Improved version control, enabled CI/CD integrations, and enhanced team collaboration and visibility.
+
+
+---
+
+2. Enhanced Pyatore Dashboard for Direct Diagnostic Insights
+
+What was done: Refactored the Pyatore dashboard to pull real-time diagnostic data directly from Pyatore logs.
+How: Integrated the dashboard with Pyatore APIs and built a reporting layer to visualize diagnostic summaries.
+Why: This was needed to eliminate manual data pulls and provide accurate, real-time diagnostics.
+Impact: Accelerated root cause analysis, reduced time-to-resolution for issues, and improved operational visibility.
+
+
+---
+
+3. Feature Development for APC Dashboard – Excel Export
+
+What was done: Implemented the ability to export plan ID status reports to Excel based on filters like turnover.
+How: Developed backend filtering and export logic using standard data libraries and ensured compliance with business logic.
+Why: Business users required downloadable reports for easier analysis and decision-making.
+Impact: Enabled quick, self-serve report generation and increased dashboard utility among stakeholders.
+
+
+---
+
+4. Shell Script for End-to-End Project Setup Automation
+
+What was done: Created a shell script to automate the complete setup process: cloning the repository, fetching artifacts/data, and configuring the environment.
+How: Wrote modular and reusable shell logic to streamline onboarding and initial setup. Planning to extend this to include deployment and preprocessing as the next phase.
+Why: Project setup was repetitive, error-prone, and varied by user.
+Impact: Significantly reduced manual setup time, ensured consistency across environments, and laid the foundation for a fully automated workflow from setup to deployment.
+
+
+---
+
+5. Automated Screenshot Capture Integrated with Report Generation
+
+What was done: Developed a Playwright-based automation script to capture screenshots and integrated it into a Python-based report generation process.
+How: Combined browser automation with reporting logic to create a seamless reporting pipeline.
+Why: Manual screenshot capture was time-consuming and inconsistent.
+Impact: Saved hours of manual effort during each reporting cycle, improved documentation quality, and enabled faster report sharing with stakeholders.
+
+
+---
+
+Learning and Development
+
+Diploma in Data Science (Completed with Distinction)
+
+What was done: Completed a rigorous diploma program focused on data analysis, statistics, and machine learning.
+Why: To strengthen my data skill set and apply it to real-world analytical challenges within the team.
+Impact: Improved my ability to design data-informed dashboards and features; foundational step toward applying predictive analytics in future projects.
+
+
+---
+
+Collaboration and Knowledge Sharing
+
+Guidance on GitHub Copilot
+
+What was done: Supported the Gurgaon team in adopting GitHub Copilot for their daily development tasks; scheduled a session for broader team enablement.
+Why: Copilot can boost developer productivity and code quality when used effectively.
+Impact: Helped improve development speed and confidence; broader session expected to amplify productivity across teams.
+
+
+---
+
+Compliance and Team Engagement
+
+Fully compliant with team and organizational policies.
+
+Actively participated in team discussions, reviews, and cross-collaborations to support smooth delivery.
+
+
+
+---
+
+Looking Ahead
+
+In H2, I plan to:
+
+Expand automation to include deployment and data preprocessing, aiming for a complete end-to-end CI/CD pipeline.
+
+Introduce more intelligence into dashboards using predictive modeling.
+
+Conduct sessions on Copilot and automation best practices to promote collective learning.
+
+
